@@ -1,0 +1,10 @@
+server:
+  port: 9090
+
+keycloak:
+  realm: myrealm
+  auth-server-url: http://localhost:8080
+  ssl-required: external
+  resource: keycloak-security
+  public-client: true
+  bearer-only: true
